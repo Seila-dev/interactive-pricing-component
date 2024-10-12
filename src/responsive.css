@@ -1,0 +1,51 @@
+@media(max-width:768px){
+    .main-content{
+        width: auto;
+    }
+
+    .main-content .payment-preview{
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+
+    .discount{
+        display: none;
+    }
+
+    .discount-responsive{
+        display: flex;
+    }
+
+    .billing-type .switch{
+        width: 40px;
+        height: 25px;
+    }
+
+    .billing-type .switch .white-circle{
+        height: 17px;
+        width: 17px;
+    }
+
+    .footer{
+        flex-direction: column;
+    }
+
+    .footer .receivements{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: 0 0 20px 0;
+    }
+
+    .footer .trial{
+        width: 100%;
+    }
+}
+
+@media(max-width:320px){
+    .billing-type{
+        padding: 10px;
+    }
+}
